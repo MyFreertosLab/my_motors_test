@@ -5,7 +5,7 @@
 w=%pi/4; // angular frequency
 T=0.001; // period
 t=0:T:10.477;
-signal=A(1:size(A,1),3)';
+signal=A(1:size(A,1),2)';
 y=signal;
 
 // Sinusoid with noise
@@ -17,11 +17,11 @@ xtitle("sinusoid with noise","t");
 // System
 n=1; // system order
 f=[1];
-g=1.50;
+g=0.90;
 h=[1];
 p0=[1000];
-R=1000;
-Q=0.05;
+R=100;
+Q=0.25;
 x0=11500*ones(n,1);
 // Initialize for loop
 x1=x0;
