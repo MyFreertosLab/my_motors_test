@@ -1,6 +1,6 @@
 ESP-IDF Test Motor (mcpwm) with INA3221
 =======================================
-maybe is we can use INA3221 to measure the actual rotation of a motor?
+maybe that we can use INA3221 to estimate the actual rotation of a motor?
 
 
 this Application to be used with [Espressif IoT Development Framework](https://github.com/espressif/esp-idf).
